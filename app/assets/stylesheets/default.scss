@@ -1,0 +1,645 @@
+/* -- FONTS -- */
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Open Sans'), local('OpenSans'), url('http://themes.googleusercontent.com/static/fonts/opensans/v5/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');
+}
+
+@import url(https://fonts.googleapis.com/css?family=BenchNine:400,300);
+
+.index-title {
+  position: absolute;
+  top: 32px;
+  width: 100%;
+  text-align: center;
+  font-family: 'Copperplate', 'Copperplate Gothic Light', sans-serif;
+  font-weight: 100;
+  font-size: 36px;
+}
+
+.text-18p{
+  font-family: 'open sans',arial,sans-serif;
+  font-size: 18px;
+}
+
+.standard-text{
+  font-family: 'Open Sans',arial,sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+}
+
+.text-14p{
+  font-family: 'open sans',arial,sans-serif;
+  font-size: 14px;
+}
+
+.text-12p{
+  font-family: 'open sans',arial,sans-serif;
+  font-size: 12px;
+}
+
+.text-10p{
+  font-family: 'open sans',arial,sans-serif;
+  font-size: 10px;
+}
+
+.courier-standard{
+  font-family: 'Courier New', 'Courier', monospace;
+  font-size: 16px;
+}
+
+h1{
+  font-family: 'Copperplate', 'Copperplate Gothic Light', sans-serif;
+  font-weight: 100;
+  color: #337ab7;
+}
+
+h2{
+  font-family: 'Copperplate', 'Copperplate Gothic Light', sans-serif;
+  font-weight: 100;
+  color: #337ab7;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+h3{
+  font-family: 'Copperplate', 'Copperplate Gothic Light', sans-serif;
+  font-weight: 100;
+  color: #337ab7;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h4{
+  font-family: 'Copperplate', 'Copperplate Gothic Light', sans-serif;
+  font-weight: 100;
+  color: #337ab7;
+  margin-top: 0px;
+}
+
+.blog-signature{
+  font-family: 'Copperplate', 'Copperplate Gothic Light', sans-serif;
+  font-weight: 100;
+  color: #337ab7;
+  font-size: 20px;
+}
+
+/* -- END FONTS -- */
+
+
+/* -- BACKGROUNDS -- */
+
+.background-2e342a{
+  background-color: #2e342a;
+}
+
+.background-00004d{
+  background-color: #00004d;
+}
+
+.background-FFFBF7{
+  background-color: #FFFBF7;
+}
+
+.background-f0f0f5{
+  background-color: #f0f0f5;
+}
+
+.background-f9f8f4{
+  background-color: #f9f8f4;
+}
+
+
+/* -- END BACKGROUNDS -- */
+
+
+/* -- TABLE -- */
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* -- END TABLE -- */
+
+
+/* -- NAV BAR -- */
+
+.nav-highlight{
+  border: 1px solid #337ab7;
+  border-radius: 3px;
+}
+
+.nav-link{
+  margin: 2px;
+  padding: 2px;
+}
+
+nav {
+  text-align: center;
+  background-color: black;
+  font-family: 'Copperplate', 'Copperplate Gothic Light', sans-serif;
+  font-weight: 100;
+  color: #337ab7;
+  font-size: 20px;
+  height: 35px;
+  line-height: 35px;
+}
+
+
+nav:hover{
+  font-family: 'Copperplate', 'Copperplate Gothic Light', sans-serif;
+  font-weight: 100;
+  color: #337ab7;
+  text-decoration: none;
+}
+
+nav:visited{
+  color: #337ab7;
+}
+
+/* -- END NAV BAR -- */
+
+.icon {
+  height: 3em;
+  width: 3em;
+}
+
+.skyline {
+  width: 100%;
+  z-index: -1;
+  height: 370px;
+}
+
+.profilephoto {
+  height: 300px;
+  width: 216px;
+  border: 2px solid #337ab7;
+  border-radius: 10px;
+  position: absolute;
+  left: 50%;
+  margin-left: -108px;
+  top: 80px;
+}
+
+.width-80 {
+  width: 80%;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.z-1 {
+  z-index:-1;
+}
+
+.align-right{
+  float: right;
+  margin-right: 1em;
+}
+
+.align-left{
+  float: left;
+  margin-left: 1em;
+}
+
+
+.v-align-middle{
+  vertical-align: middle;
+}
+
+
+.no-bullets{
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.login-box{
+  position: absolute;
+  width: 200px;
+  top: 40px;
+  left: 80%;
+  border: 2px solid #337ab7;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: #f0f0f5;
+  text-align: center;
+}
+
+.resume{
+  border: 2px solid #337ab7;
+  border-radius: 10px;
+}
+
+.blog-container{
+  width: 60em;
+  margin: 0 auto;
+  background-color: #f0f0f5;
+  border: 2px solid #337ab7;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.blog-container-wide{
+  width: 90%;
+  margin: 0 auto;
+  background-color: #f0f0f5;
+  border: 2px solid #337ab7;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+
+.blog-row{
+  width: 80%;
+  margin: 0 auto;
+  min-height: 3em;
+  background-color: #3e4739;
+  border-radius: 10px;
+  line-height: 3em;
+  padding: 5px 5px 5px 5px;
+}
+
+.center-me {
+  margin: 0 auto;
+}
+
+.code {
+  width: 55%;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding-left: 0.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-right: 0.5em;
+  background-color: #202020;
+  color: #B0B0B0;
+}
+
+.codewide {
+  width: 100%;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding-left: 0.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-right: 0.5em;
+  background-color: #202020;
+  color: #B0B0B0;
+}
+
+/* -- SLICK CAROUSEL -- */
+
+.slick-text{
+  font-family: 'BenchNine', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 4px;
+  text-align: center;
+}
+
+.slick-container {
+  background-color: #f0f0f5;
+  border-radius: 10px;
+  height: 220px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.slick-image{
+  width: 100%;
+  height: 90%;
+  padding: 2px;
+  border: 2px solid #337ab7;
+  border-radius: 8px;
+}
+
+.slick-dots li button:before {
+  font-size: 20px;
+  color: #000000;
+  top: 20px;
+}
+.slick-dots li.slick-active button:before {
+  color: #000000;
+}
+
+@media (max-width: 1000px) {
+  .slides p {
+    font-size: 18px;
+  }
+  .grid-fifth {
+    width: 27.333333%;
+    margin: 0 3%;
+  }
+}
+
+@media (max-width: 700px) {
+  .logo {
+    float: none;
+    margin: 20px auto 0;
+  }
+  .grid-half {
+    width: 80%;
+    margin: 0 10%;
+  }
+  .grid-third {
+    width: 80%;
+    margin: 0 10%;
+  }
+  .grid-fifth {
+    width: 80%;
+    margin: 0 10%;
+  }
+  .row {
+    padding: 0 10px;
+  }
+  nav {
+    width: 100%;
+  }
+  nav a {
+    transition: 0s;
+    width: 33.333333%;
+    float: left;
+    padding: 0;
+    margin: 10px 0 0;
+    text-align: center;
+  }
+  .description {
+    display: none;
+  }
+  .slide img {
+    width: 80%;
+    margin: 100px 10%;
+  }
+
+  .frame {
+    margin: 40px 0 0;
+  }
+  .item {
+    margin-bottom: 60px;
+  }
+  .item h3 {
+    margin-top: 20px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+}
+
+.slick-prev{
+  left:-50px;
+}
+
+.slick-prev::after {
+    color: black;
+    font-size: 18px;
+    padding-right: 0.5em;
+}
+
+.slick-next::after {
+    color: black;
+    font-size: 18px;
+    padding-right: 0.5em;
+}
+
+.slick-prev::after {
+    content: "\f137";
+    font-family: FontAwesome;
+    color: #000;
+    font-size: 18px;
+    padding-right: 0.5em;
+}
+
+.slick-next::after {
+    content: "\f138";
+    font-family: FontAwesome;
+    color: #000;
+    font-size: 18px;
+    margin-right: 0.5em;
+    padding-right: 0.5em;
+}
+
+
+/* -- END SLICK -- */
+
+
+
+/* -- MARGIN AND PADDING -- */
+
+.mar-b-1 {
+  margin-bottom: 1em;
+}
+
+.mar-b-2 {
+  margin-bottom: 2em;
+}
+
+.mar-b-3 {
+  margin-bottom: 3em;
+}
+
+.mar-b-8 {
+  margin-bottom: 8em;
+}
+
+.mar-b-16 {
+  margin-bottom: 16em;
+}
+
+.mar-t-05{
+  margin-top: 0.5em;
+}
+
+.mar-t-1 {
+  margin-top: 1em;
+}
+
+.mar-t-2 {
+  margin-top: 2em;
+}
+
+.mar-t-3 {
+  margin-top: 3em;
+}
+
+.mar-t-4 {
+  margin-top: 4em;
+}
+
+.mar-t-5 {
+  margin-top: 5em;
+}
+
+.mar-r-1 {
+  margin-right: 1em;
+}
+
+.mar-r-2 {
+  margin-right: 2em;
+}
+
+.mar-r-3 {
+  margin-right: 3em;
+}
+
+.mar-r-4 {
+  margin-right: 4em;
+}
+
+.mar-r-5 {
+  margin-right: 5em;
+}
+
+.mar-l-1 {
+  margin-left: 1em;
+}
+
+.mar-l-2 {
+  margin-left: 2em;
+}
+
+.mar-l-3 {
+  margin-left: 3em;
+}
+
+.mar-l-4 {
+  margin-left: 4em;
+}
+
+.mar-l-5 {
+  margin-left: 5em;
+}
+
+.mar-l-10 {
+  margin-left: 10%;
+}
+
+
+.pad-1 {
+  padding: 1em;
+}
+
+.pad-2 {
+  padding: 2em;
+}
+
+.pad-b-1 {
+  padding-bottom: 1em;
+}
+
+.pad-b-2 {
+  padding-bottom: 2em;
+}
+
+.pad-b-3 {
+  padding-bottom: 3em;
+}
+
+.pad-b-4 {
+  padding-bottom: 4em;
+}
+
+.pad-b-5 {
+  padding-bottom: 5em;
+}
+
+.pad-t-03{
+  padding-top: 0.3em;
+}
+
+.pad-t-1 {
+  padding-top: 1em;
+}
+
+.pad-t-2 {
+  padding-top: 2em;
+}
+
+.pad-t-3 {
+  padding-top: 3em;
+}
+
+.pad-t-4 {
+  padding-top: 4em;
+}
+
+.pad-t-5 {
+  padding-top: 5em;
+}
+
+.pad-r-1 {
+  padding-right: 1em;
+}
+
+.pad-r-2 {
+  padding-right: 2em;
+}
+
+.pad-r-3 {
+  padding-right: 3em;
+}
+
+.pad-r-4 {
+  padding-right: 4em;
+}
+
+.pad-r-5 {
+  padding-right: 5em;
+}
+
+.pad-l-1 {
+  padding-left: 1em;
+}
+
+.pad-l-2 {
+  padding-left: 2em;
+}
+
+.pad-l-3 {
+  padding-left: 3em;
+}
+
+.pad-l-4 {
+  padding-left: 4em;
+}
+
+.pad-l-5 {
+  padding-left: 5em;
+}
+
+/* -- END MARGIN AND PADDING -- */
+
+/* -- PIPE SEPARATING -- */
+
+.pipe-separate {
+  padding-left: 1em;
+  padding-right: 1em;
+  border-right: 1px solid;
+}
+
+.pipe-separate:first-of-type {
+  padding-left: 0;
+}
+
+.pipe-separate:last-of-type {
+  padding-right: 0;
+  border-right: none;
+}
+
+/* -- END PIPE SEPARATING -- */
+

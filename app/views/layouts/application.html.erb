@@ -6,9 +6,30 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
-<body>
+<body class="row background-f9f8f4">
+  <div class="col-md-1"></div>
+  <div class="col-md-10">
+    <div class="row">
+      <nav id="nav-bar" class="col-md-6">
+        <span class="pipe-separate"><%= link_to 'Home', root_path, :class => "nav-link home-link" %></span>
+      </nav>
+      <nav id="login-bar" class="col-md-6">
+          <% if !logged_in? %>
+            <span class="pipe-separate"><%= link_to 'Create Account', new_user_path, :class => "nav-link create-link" %></span>
+            <span class="pipe-separate login"><%= link_to 'Login', new_user_path, :class => "nav-link", remote: true %></span>
+          <% elsif logged_in? %>
+            <span class="pipe-separate"><%= link_to current_user.username, user_path(current_user), :class => "nav-link profile-link" %></span>
+            <span class="pipe-separate"><%= link_to 'Logout', logout_path, :class => "nav-link" %></span>
+          <% end %>
+      </nav>
+    </div>
+    <div id="append-login"></div>
+    <div>
 
-<%= yield %>
+      <%= yield %>
 
+    </div>
+  </div>
+  <div class="col-md-1"></div>
 </body>
 </html>
