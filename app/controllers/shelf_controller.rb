@@ -1,2 +1,0 @@
-class ShelfController < ApplicationController
-end
