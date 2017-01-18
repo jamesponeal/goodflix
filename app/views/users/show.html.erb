@@ -1,5 +1,20 @@
 <h1><%= @user.first_name %>'s Profile Page</h1>
 
 <div>
-  <%= @user.bio %>
+  <% if @user.shelves %>
+    <h3>Your Shelves:</h3>
+    <ul>
+      <% @user.shelves.each do |shelf| %>
+        <li>
+          <%= shelf.name %>
+        </li>
+      <% end %>
+    </ul>
+  <% end %>
+</div>
+
+
+<div>
+  <h3>About <%= @user.first_name %>:</h3>
+  <p><%= @user.bio %></p>
 </div>
