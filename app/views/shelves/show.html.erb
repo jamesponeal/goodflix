@@ -1,0 +1,15 @@
+<h1><%= @shelf.name %> Page</h1>
+
+<div>
+  <% if @shelf.movies %>
+    <h3>Movies in this shelf:</h3>
+    <ul>
+      <% @shelf.movies.each do |movie| %>
+        <li>
+          <%= movie.title %>
+        </li>
+      <% end %>
+    </ul>
+  <% end %>
+</div>
+
