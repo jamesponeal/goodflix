@@ -6,7 +6,7 @@
     <ul>
       <% @user.shelves.each do |shelf| %>
         <li>
-          <%= shelf.name %>
+          <%= link_to shelf.name, shelf_path(shelf) %>
         </li>
       <% end %>
     </ul>
