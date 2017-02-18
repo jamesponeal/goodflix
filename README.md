@@ -1,6 +1,6 @@
 #GoodFlix
 
-![GoodFlix Logo](images/goodFlix_logo1.png)
+![GoodFlix Logo](app/assets/images/goodFlix_logo1.png)
 
 ###Description:
 Goodflix is a movie review and ratings web app with a social feature. It does not provide content, only a platform for leaving reviews and ratings for movies, with a newsfeed so that you can see what ratings and reviews your friends have left.
