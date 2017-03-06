@@ -6,7 +6,7 @@
     <ul>
       <% @shelf.movies.each do |movie| %>
         <li>
-          <%= movie.title %>
+          <%= link_to movie.title, movie_path(movie) %>
         </li>
       <% end %>
     </ul>
